@@ -1,0 +1,11 @@
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\bin\Debug\netcoreapp2.1\IterateAppPools.deps.json
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\bin\Debug\netcoreapp2.1\IterateAppPools.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\bin\Debug\netcoreapp2.1\IterateAppPools.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\bin\Debug\netcoreapp2.1\IterateAppPools.dll
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.csprojAssemblyReference.cache
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\bin\Debug\netcoreapp2.1\IterateAppPools.pdb
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.dll
+C:\Users\rachit.srivastava\source\repos\IterateAppPools\IterateAppPools\obj\Debug\netcoreapp2.1\IterateAppPools.pdb
