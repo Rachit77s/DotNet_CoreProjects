@@ -1,0 +1,9 @@
+Steps to note:
+
+1. Firewall Off
+2. Started Windows Remote Management
+3. You should have Windows Management Instumentation service running otherwise you will get Namespace not found error
+
+
+
+Project MicrosoftWMIExample and WMIConnection are merged into the single project RemotelyConnectAnotherComputerUsingWMI

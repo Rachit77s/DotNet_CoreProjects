@@ -1,0 +1,11 @@
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\bin\Debug\netcoreapp2.1\MicrosoftWMIExample.deps.json
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\bin\Debug\netcoreapp2.1\MicrosoftWMIExample.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\bin\Debug\netcoreapp2.1\MicrosoftWMIExample.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\bin\Debug\netcoreapp2.1\MicrosoftWMIExample.dll
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.csprojAssemblyReference.cache
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\bin\Debug\netcoreapp2.1\MicrosoftWMIExample.pdb
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.dll
+C:\Users\rachit.srivastava\source\repos\MicrosoftWMIExample\MicrosoftWMIExample\obj\Debug\netcoreapp2.1\MicrosoftWMIExample.pdb

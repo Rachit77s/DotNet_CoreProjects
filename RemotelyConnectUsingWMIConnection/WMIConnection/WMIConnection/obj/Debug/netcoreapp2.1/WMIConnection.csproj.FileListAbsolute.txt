@@ -1,0 +1,11 @@
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\bin\Debug\netcoreapp2.1\WMIConnection.deps.json
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\bin\Debug\netcoreapp2.1\WMIConnection.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\bin\Debug\netcoreapp2.1\WMIConnection.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\bin\Debug\netcoreapp2.1\WMIConnection.dll
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.csprojAssemblyReference.cache
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\bin\Debug\netcoreapp2.1\WMIConnection.pdb
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.dll
+C:\Users\rachit.srivastava\source\repos\WMIConnection\WMIConnection\obj\Debug\netcoreapp2.1\WMIConnection.pdb

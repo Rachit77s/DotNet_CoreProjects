@@ -1,0 +1,11 @@
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\bin\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.deps.json
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\bin\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\bin\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\bin\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.dll
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\bin\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.pdb
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.csprojAssemblyReference.cache
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.dll
+C:\Users\rachit.srivastava\source\repos\RemotelyConnectAnotherComputerUsingWMI\RDCUsingWMILatestVersion\obj\Debug\netcoreapp2.1\RDCUsingWMILatestVersion.pdb
