@@ -1,0 +1,11 @@
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\bin\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.deps.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\bin\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\bin\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\bin\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.dll
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.csprojAssemblyReference.cache
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\bin\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.pdb
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.dll
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\ExcelToJsonUsingSyncfusion\obj\Debug\netcoreapp2.1\ExcelToJsonUsingSyncfusion.pdb

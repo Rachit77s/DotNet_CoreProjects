@@ -1,0 +1,10 @@
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\bin\Debug\netcoreapp2.1\PowershellAutomation.deps.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\bin\Debug\netcoreapp2.1\PowershellAutomation.runtimeconfig.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\bin\Debug\netcoreapp2.1\PowershellAutomation.runtimeconfig.dev.json
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\bin\Debug\netcoreapp2.1\PowershellAutomation.dll
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\obj\Debug\netcoreapp2.1\PowershellAutomation.csproj.CoreCompileInputs.cache
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\obj\Debug\netcoreapp2.1\PowershellAutomation.AssemblyInfoInputs.cache
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\obj\Debug\netcoreapp2.1\PowershellAutomation.AssemblyInfo.cs
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\bin\Debug\netcoreapp2.1\PowershellAutomation.pdb
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\obj\Debug\netcoreapp2.1\PowershellAutomation.dll
+C:\Users\rachit.srivastava\source\repos\MiscellaneousProjects\PowershellAutomation\obj\Debug\netcoreapp2.1\PowershellAutomation.pdb
