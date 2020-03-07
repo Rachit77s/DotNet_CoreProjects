@@ -1,0 +1,3 @@
+https://devhow.net/2018/11/25/c-converting-excel-json/
+
+https://www.syncfusion.com/kb/9095/export-excel-data-to-json-format-in-c-vb-net

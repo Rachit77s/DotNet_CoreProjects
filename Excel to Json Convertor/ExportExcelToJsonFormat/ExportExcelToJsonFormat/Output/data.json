@@ -1,0 +1,4629 @@
+[
+  {
+    "ConfigKey": null,
+    "Description": "Action user roles",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string containing Agreement Attributes' and its expected auto formatting/computation in JSON format. The attribute (IncludeInContractType) indicates that it can contain pipe separated contract type technical name and the formula would be applied on mentioned contract types only.\nIts value may also have 'All' when we want it to be applied to all the contract types. Leaving it blank or Non existence of this key would apply this formula on all contract types. The attribute (ExcludeInContractType) indicates that it can contain pipe separated contract type technical name and the formula would not be applied on mentioned contract types.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag indicating whether to evaluate event rules before approval rules on agreement update.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The downloaded agreement/associated document file name. \n            value should be in the following format \"[{\"EntityName\":\"AssociatedDocument\",\"FileNameFormat\":\"{{<attributeName1>}}_{{<attributeName2>}\"},{\"EntityName\":\"Agreement\",\"FileNameFormat\":\"{{<attributeName1>}}_{{<attributeName2>}\"}]\". \n NOTE: The attributes used here should be common attributes for all contract types.\n Default value: \"{{ICMEntityName}}_{{ICMAgreementCode}}_{{ICMAgreementDocumentVersion}}\"\nSpecialProperties that can be used are {{ICMEntityName}}, {{ICMAgreementDocumentVersion}} as they do not have attribute in the instance",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Store all executed contract at different storage with customer name as Folder. Box Storage is configured then value should be false as no preview documents need to be generated",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Store all executed contract at different storage with customer name as Folder\nE.g. {{ICMPartyName}}-{{ICMAgreementCode}}-v{{ICMAgreementDocumentVersion}}_{{ICMEffectiveDate}}",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Number of seconds to keep Agreement cached during load process",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Used to enable/ disable the Contract Request feature.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enables/disables the ability to use search metric tiles on dashboard",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "File extension for associated document",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "File extension for third party",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Display enhanced create action buttons: Create&Publish, Create&SendForApproval on create wizard",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag for whether to allow user to upload document with an ID not matching with the ID of document already in system",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A Flag Indicating whether multiple login sessions are allowed per user",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to allow agreement creation without selecting template.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Represent regex to check alphabet in the text.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to decide if unnecessary publish of contract types to be avoided.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "dicates maximum number of times to check whether current modification operation, if any, is completed or not.\nFor infinite trials, set the value less than 0.\nNOTE: modification operation = any kind of operation which would modify the instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates time between the checks to find out whether current modification operation, if any, is completed or not.\n NOTE: modification operation = any kind of operation which would modify the instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Maximum number of dictionary members allow to be json deserialize",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to use overloaded insert table method in Agreement helper",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service Provider encryption certificate store location.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service Provider encryption certificate store name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service Provider certificate thumbprint using which SAML Response will be encrypted",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Color to be used for highlight the metadata, if set none then the entire feature would turn off.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This settings is used to filter the attributes and reset the values when amendment is created, this will be used on Edit screen ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of attributes that should not be synced when third party agreement doc is published from word addin",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of the all the attribute types that we want to not highlight, set it none if we want to highlight all attribute type, Ref AttributeDataType enum. Have values comma sperated without spaces",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to enable audience restriction in case of SSO. If flag is set to true the URL needs to be configured to which IdP will issue an SAML response. Upon receving the SAML  response, the response URL will get validated against the configured URL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Flag to decide whether upload of files having double extensions should be blocked. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box App User Name. This needs to be configured to create pool of App Users with Prefix ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Client Id",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Client Secret",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Enterprise Id",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box App User Group.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box App User pool size. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Private Key. This is required to be generated",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Private Key Password",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Public Key id. This is available once you register your Application on BOX with Public key generated",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Bulk Insert Excel Add-In vesion of this build.This will be displayed on ICM Version Information popup.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is Box Link Expiry period. Default 90",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Cache user dashboard tiles to search with their count.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Cache Service Endpoint URI",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Cache Service Password",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates the type of cache host to use.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Comma separated value for font family name and size [Make sure first parameter is font family and second is the size of the font]",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A boolean flag indicating whether to provide license to accept when user logs in for the first time.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Click To Accept Attribute Name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Token for verifying client app signed requests e.g. Salesforce signed request.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Gets or sets a value that indicates whether client validation is enabled.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that defines the time after which query will end with error if not finished earlier",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Confidential Org path's id. We need to create new ORG unit with name 'Confidential' at the root org unit and set it's ID as a value here.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Content Access token expiry time in seconds",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag indicating whether to exit contract admin rule evaluation on the first satisfied rule.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The name of the topic on which contract type publish request message is sent.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Font size to be used while merging documents in assembly",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " This value is to set Command Time out In Seconds.  This config key is to be used strictly for ACF ExecuteCustsomization Calls which is taking more than 30 seconds. Warning = This key should be used only after consultation with DB support",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key helps disable Clause Library, Template and Config Administration tiles so that Config changes can be prevented on production unless there is an emergency.  This helps make P2P easier, and allows inadvertent or intentional changes by Support or Customers in production without going through the P2P process",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key defines the attribute name of the extended agreement clause master data contract type, which will be used to hold relation between agreement clause and extended agreement clause master data. Value for this key must be the technical name of the attribute.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key defines the master data entity name which needs to be created for extended agreement clauses. The use case could be users will create the required master data as mentioned in this key and ICM will read the attributes from that master data which will be used for further processing or to decide the respective agreement clauses. e.g. This master data entity could be used to track the flow down agreement clauses",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting specifies the association/s which we should not associate to an amendment when creating it. \n\t\t       Sample Value: \n\t\t       {\n\t\t\t\t    \"ICMgContractsAgreementAmendment\": [\"iCMTopPartnerReview\"]\n\t\t\t      }\t",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enable or disable broadcast feature on agreement details page",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicates comma separated values which will help to select business owners in case of creating the commitment.        The value in this key will help to show those users as Business Owners while adding the commitment. \nFor e.g. if the key value is set as internal in that case only Internal users will be shown while creating the commitment. \nIf the value contains externalusers and user selects only external user as a business owner in that case a validation will be triggered which will not allowed external users alone to be added as part of Business owners while creating the commitment.  The value of key should not be externalusers alone otherwise it will block It will block commitment creation",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key can be used to specify the custom workflow states for agreement (comma separated), that can be used to list down additional custom workflow states on top of core workflow states.  This helps in taking some action around these custom workflow states. One such usage can be found around Evaluating Rules.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether to deprecate previous document version on random document upload",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Configuration setting to define placeholders (CSV) for docusign default message. Placeholders will be replaced by actual agreement values.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean value which when set to true enables the selection of associations during download all button click, otherwise downloads all the latest versions of the documents of all associations. The files will be included in a zip file. \n For example : If a contract type MSA has 3 associations ESOP, SOW, NDA and you want the user to have the ability to download only ESOP or NDA or SOW, set the value to true.\nIf you want to enforce download of all the latest versions of all the associations i.e. ESOP and SOW and NDA, then set the value to false.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Specifies comma separated Statuses for which, trigger Evaluate Dynamic association rule on update Event",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key will enable 'Copy Associated Documents' button on Agreement and Associated Document Details page.\nThis functionality will allow user to copy associations across agreements and across multilevel associations.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enable or disable file path on agreement wizard template page.  Setting this value to true will enable file path control on template page allowing user to select a non system template (valid file) as own type.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email id to send email copy to",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email id to which all external signatory requests should be forwarded to",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email id to which all internal signatory requests should be forwarded to",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "An enum indicating whether emails send for signature should be redirected or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Name of the Masterdata entity that extends the Commitment entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Attribute name of the Masterdata entity that contains unique Identifier of corresponding Commitment entity instance. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicated whether to hide or show the chevron on agreement create, edit & details page",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicated whether to hide or show the Org Node attribute on agreement create, preview & details page",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Replace special character in file name with '_' before upload.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Show Internal User's role as Internal Reviewer in Review Process. If this is set to True, when agreement will be sent for review, if the reviewer is Internal User, it’s role in Team tab will be shown as “Internal Reviewer”. If set to false, it will be shown as “External Reviewer”",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The attributes that hold internal and external sign dates could be different per entity per client. This key holds the attribute names for internal and external sign dates per entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting controls whether to allow assembly of non tagged rule based clauses into the agreement.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains the comma separated list of strings that can be ignore while decoding the values of attributes. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicates comma separated list of post execution states (e.g. Executed, WaitingForReview, Reviewed, Superseded) for which peer association can be added. If we do not want to allow peer association for any of these states, this value should be set to blank.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean value to add self to the agreement team.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to determine if the Send Notifications checkbox should be visible. If true, then the Send Notifications checkbox will be visible and checked.  If false, then the Send Notification checkbox will not be visible but checked always",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to determine whether Template selection is allowed in edit agreement. If true, then Template selection will be allowed in edit agreement. If false, then Template selection will not be allowed in edit agreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This flag indicates whether to On/Off reverse sync feature while uploading a document for agreement. If true, Reverse Sync feature will be turn On. If false, Reverse Sync feature will be turn Off ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Show Upload Document button on details page of agreement in PreDraft state",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This flag indicates whether to On/Off Orphan amendment creation (without parent agreement). Applicable for Agreement type of Contract only. On creation of Orphan amendment, system will internally create placeholder agreement in Executed state  which will have same data as that of amendment and link to it. If true, Orphan amendment creation will be allowed. If false, Orphan amendment creation will not be allowed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key defines the all the parameters required for the application monitoring performance, by default its value will be None.  The Key value can be the collection of comma separated keys and values. Provider Sub key is Mandatory & it defines which APM [Application Performance Monitoring] is enabled for this Application. If we use Provider as ‘MSAppInsights’ it will enable Azure app insights for application and send data to azure app insight resource which is created.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma seperated (list) and Pipe(|) separated (Range) of IP Adresses which are allowed to access the application during the maintenance mode. Others will be redirected to Maintenance page.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Attribute to enable / disable maintenance mode of the Application.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of SSL certificate thumbprints to add in the Trusted Root of local machine.  Each thumbprint is separated by semicolon. This can be used to add certificates that are customer specific, and when they have to be specifically added when the node is starting up. For example, we use a jnj.com certificate instead of an icertis.com certificate",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma separated technical names of attributes which should not be copied while copying an Associated Document across agreements/multilevel associations.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key will enable 'CreateAndSendForApproval' button and functionality on Associated Document create page.\n Button visibility is NOT controlled via Role Action Mapping, similar to Agreement CreateAndSendForApproval button.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key will enable multilevel association feature for Associated Document. If enabled, \"Associations\" tab will be displayed while creating / updating \"Associated Document\" Contract Type where other contract types can be associated",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Specifies comma separated associated document contract type names for which,  create instance or update instance (in approved state) action will send instance directly for approval.  For other contract types, instance will stay in draft state. User will have \"Send For Approval\" as an explicit action",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A flag indicating whether Tracking Attribute functionality should be enabled for Associated Document",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Configuration setting to switch ON/OFF the bulk import/export functionality. If true, then import/export options will be displayed for associate documents to manage bulk associations. This comes to effect only when \"Document Assembly\" option is off and workflow is not available for associated document.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "onfiguration setting to control the UI behaviour of associated documents for add/edit/copy actions. The configuration value specifies where to open associate document i.e. in popup/page. This comes to effect only when  \"Document Assembly\" option is off and workflow is not available for associated document.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to replace th. If this key does not exist, or has an invalid value, it will be assumed to be false.e word in agreement  in the audit log history message with the contract type display name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Contains the configuration required for rendering tabs and filtering audit log  entries based on tab selection\nresourceKeyName = name of the resource key whose corresponding value needs to used as the tab name\n seqNo = sequence in which the tabs need to be displayed\n filterBy = this will have 2 values, either workflowstates or events\nworkflowstates = filtering will be done on the workflow states\nevents = filtering will the done on the events\n filter = comma separated list of filtering criteria",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "String   Visiblity of the Fields in the Grid view of Audit History.   Customers need to customize the fields they want to see in the Grid view in the Audit History.  A comma Seperated list(without spaces) can be configured by the customers and the grid will only display those configured columns in the Grid.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "et expiry time in minutes to validate RequestVerificationToken.\n Given that RequestVerificationToken token is rendered on UI And token has a date time included in it\n And token is older than expiry duration (e.g. token was generated 35 minutes ago)\nWhen such a RequestVerificationToken sent in a request header for POST action Then System will verify that token is older than defined expiry duration. And request will not be processed. This expiry duration should be same as InactivityLogoutTimeMinutes or little longer by few minutes than InactivityLogoutTimeMinutes.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "lag to determine whether the Shared Org Path check for the Entity considers the Org Group the user belongs to. If user belongs to an organization group (Consisting Org Units 'A' and 'B')  then user should be able to see all the agreements which have Org Path ='A' or 'B' as well as user should be able to see all the Agreement which have Shared Org Path as 'A' or 'B'. \nIMPORTANT NOTE: This setting violates the way Shared Org Path is supposed to work, especially if A or B have child nodes and Org Groups cut across the organization; this is a limited hack for cases like 3M!\n If true, then users belonging to an organization group will be able to access agreements via shared and default path both. If false, then users belonging to an organization group will be able to access agreements via only default path.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Master data entity name which stores the mapping of standard document saved search name and contract type name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Maximum number of records that can be created via auto association. This setting will be a limit to guard against an incorrect saved search that may result in large number of auto associations.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Default OrgPath for Clauses when Enable access control for Clauses is true. In order to enable access control on Clauses, we need to set correct OrgPath on each instance. Value of this setting will be used in that case. \nThis will restrict access to clauses to users having access to specified org path Or if they are present in clause’s team. Its value can be any org path from available org structure.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Default OrgPath for Clauses when Enable access control for Clauses is true.  In order to enable access control on Clauses, we need to set correct OrgPath on each instance. Value of this setting will be used in that case.  This will restrict access to clauses to users having access to specified org path Or if they are present in clause’s team. Its value can be any org path from available org structure.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A flag indicating whether Tracking Attribute functionality should be enabled for Contract Request ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is to decide whether composite attribute functionality is enable or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key defines the Maximum number of possible attributes to be added in a contract type. System will not allow adding attributes more than the value mentioned in this configuration. Warning: Do not change this config value as it might have adverse effect on ICM performance and may cause DB level compatibility issue. Changing this value from 250 to anything larger will need VP level approval from PS as well as Engineering.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to specify assembly namespace for customization hooks. \n Core hooks can be implemented by Custom Plugins and / or Business App Plugins. If, both, Custom and App plugins have implemented the same core hook, in order to prioritize the Custom hook implementation, this key specifies which namespace is to be considered for picking Custom hook implementation. If namespace exists, only Custom implementation from that is picked, if not present, all implementations will be considered (including Custom, App and other implementations, if any). This concept is applicable for any hook over hook implementation.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean value if set to true will open the \"Add Comment\" pop up on Approve or Reject action of deviation. If set to false, approve or reject action will not open the \"Add Comment\" pop up.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Specifies PDF with maximum how many pages can be assembled by ICM. To assemble PDF file, ICM will convert each page to image and will merge to main document.\nIf uploaded document has more pages than this setting value then ICM will not assemble that associated document into main contract at all. Setting value 0 turns off the PDF assembly. Maximum value could be same as max integer value",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This flag indicates whether to On/Off document validations for various actions for Agreement, Amendment[Same as agreement] and association.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting will control the type of queries search module will generate i.e. Object queries of nested queries. Nested type queries are required to filter agreement based on inner collections like team, associations etc..\nFew scenarios are : 1.\tFind all agreements where logged in user is primary owner of the agreement\n                            2.\tFind all agreements that are pending approval from logged in user\n                            3.\tFind all agreements which are awaiting signature from user A\nNOTE: Before marking this setting as true, data in entities and documents indices will have to be reindexed with updated dynamic templates. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list attributes which is allowed to display for particular entity if any particular attribute is globally non searchable. This attribute will override the attribute if it is present in globally non searchable attribute list.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list of entity specific attributes. In this list entity will be attached with attributes. These attributes will not be displayed for attached entity. The format will be as below, Entity Name:#separated attribute list",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list of globally non searchable attributes. These attributes will not be display for any entity ok search index and list pages",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "JSON object defines the action names after choosing user will remains on details page. This feature is done for agreement only and it can be extend to other entities like contract request.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This config setting specifies roles for which notification will not be sent  when a (Ad Hoc) team member is added or removed > We can have multiple roles separated by '|' (pipe) e.g. Observer|Compliance|BusinessOwner|ContractAdmin > The roles will be the 'RoleName'",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Entity name of the master data which stores upload template and xml template file for associate documents file upload.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This config setting specify the type of contract that will be given permission to override the mandatory field\nvalidations default system value (for the entity instances) by the value passed by the caller(clients: e.g.: Excel add-in) consuming the service.  Type of Contract are the base typs could be [Agreement, AssociatedDocument, Masterdata, ContractRequest].",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Skip generation of action request against existing DeProvisioned team member(s)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key will be used for coping attribute values from UserInformation entity to ICMExtendedUserEntity\nIn value JSON SourceAttributeName key value should be {{UserInformation Entity Attribute Name}}\n In value JSON DesitnationAttributeName key value should be {{ICMExtendedUserEntity Attribute Name}}",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains value of Maximum Page size for all grids in application",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains value of page size i.e. step provided by system. Based on this value, available page sizes are calculated.. Based on this value, available page sizes are calculated. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The system will log all log messages with same or lower log level. For example, with warning log level, all log methods with a level parameter value of Warning, Error, Critical, and LogAlways are written",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This value will be used in add Notes popup to mark it as private or public.  Only internal userss can mark notes as private or public. External user will not see this option. Any note added by external user will be public to all.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This default value will be used in add Notes popup to mark it as private or public",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This value is used on Note Tab. Use comma seperated names from possible values to hide columns from Note Grid or List. This configuration setting will hide those columns from external users.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "When this flag is set to true, files that have invalid QR codes (including invalid agreement number, missing QR codes, missing pages, pages out of order etc.) can still be uploaded. If the value is set to false, such documents are prevented from being uploaded. Setting this flag to true should be done in consultation with customers as it may have an impact on compliance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This value is used to set QRCode Width and Height.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Use this config key is only applicable for Approval rules and Agreement type CT.  This key will be used to display/hide Select Attribute button in rules wizard.   Core / default value will be false.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The key contains a java script array that defines bulk actions available in ICM. For each bulk action, we need to define an id, its display text,  action string and what client side method to execute for processing the bulk action. We can add new custom bulk actions by adding an element in this array with a custom javascript method name which will be called when user triggers the bulk action. Please mention method's fully qualified name. The method should expect a single argument which will be an array of selected records on which bulk action needs to be taken. The method name must be specified for custom bulk actions.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This indicates default sort for search results .",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to determine whether to enable or disable the search visualization button on advanced search page.'Search Visualization' helps the end user to create various graphical representations of the saved search results and also use them as KPI tiles.  The existing graphical representations are - bar graph, pie chart, line graph, area graph and stack chart.  If set to 'true' the search visualization button will be enabled (shown) on advanced search page. If set to 'false' it will disable(hide) the search visualization button. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting contains configuration to control the rendering of suggestions when user performs a global search on the ICM dashboard. This setting controls various aspects of suggestions which are listed below\n1. Number of suggestions to display\n 2. Entities to perform search against\n 3. Fields per entity with specific widths to be displayed in suggestion entry\n 4. Number of character user must type into the search box to trigger the search\n5. Mode of search (metadata/fulltext/combined)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting re-presents the search UI controls which are to be displayed on UI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting toggles the search authorization condition grouping. Earlier search authorization grouping was [SG access AND (OU visibility OR team Access)]. If this setting is set to true, this grouping will change to [(SG access && OU Visibility) OR Team Access]. In other words, if value of this setting is  false, any user who is present in the agreement team (without access in SG and/or organization path) will still be able to view that agreement in search grid. (Applicable for all entities agreement/masterdata/contract request/associated document/templates/clauses)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Should JavaScript be removed from PDF during upload to storage",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key specifies if ICM should create service bus messaging entities (i.e. Topic, Queue & Subscription ) if does not exist. If value is false then these entities need to be created externally as ICM will not ensure if required messaging entities are present. This should be set to true in case of old versioned (e.g. on-prem SB v2.1) is being used with the latest azure service bus SDK (v2.9).",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains Time Unit for SLA, Reminder and Notification frequency defined under SLA Matrix. However, for “Hours” value – Scheduled notification task frequency need to be set on hourly basis. By default, it will run daily once. This key value should be set strictly to Days for all customer use and should not be changed. And it can be set to Hours only for demo purposes.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma seperated list of contract types technical names. These entities will come under sourcing tile, these entities will be filtered from normal agreement creation.\nIn order to create the agreememts of these types user will have to use Create tile under Sourcing tab. For example the list can be like ICMRFP,ICMRFx,ICMRFI,ICMRFQ which are the technical names of the contract types.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This configuration setting specifies whether comments are mandatory or not while manually adding a team member in team",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Identify if the team from agreement needs to copied to the associated documents",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Applicable only for Template.  A checkbox with label 'Highlight PDF Preview' is shown on template details page.\nBy default the non-highlighted or default preview will be visible (When 'Highlight PDF Preview' checkbox is not selected).  On selecting the 'Highlight PDF Preview' checkbox the preview will be displayed with the attribute, clause & signatory tags highlighted as configured(e.g. Yellow, Light Gray & Red.).  User can toggle between the highlighted and default PDF preview document by checking/un-checking the 'Highlight PDF Preview' checkbox",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enable access control for templates.  Turning this option on will remove shared access from templates And access will be controlled by combination of team and org hierarchy  Template management screens will be access controlled. (With shared access all templates are available to all users). Template selection while rule creation and agreement creation will still show all templates",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Set OrgPath for template when Enable access control for Templates.  As part of enable access control on, we need to set correct OrgPath for templates, for org access. This will restrict access to users having access to specified org path. Its value can be any org path from available org structure.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key shows or hides the screen for creating extension attributes while creating templates.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This  configuration key will be used for provide grid view on template selection page in addition to existing Tile view. This is applicable for both Agreement and Association instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to determine if the Compliance Management tile should be visible. If true, then Compliance Management tile will be visible.  If false, then Compliance Management tile will not be visible",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "ime interval to refresh user static list (In seconds). This setting is used to build users static list in memory.So after every 60 seconds system will check if there are any new or modified users available in Db.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean value to determine User permissions through Security Group.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma separated list indicating the type(s) of UI to be supported in User Selection popups.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains default value of secondary owner to be added while creating new user or auto provisioning. This value can be individual email id or group name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is to get name of the subscription for Replace User Task",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Cost Center Attribute Name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Contract Extension Entity Name (Value's can be comma seperated)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Entity Name for gContracts Agreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Entity Name for Other Party Contact Master",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Metadata of the entity specified by the setting Customization.Googl.IndicationEntityName which will be used to display the indicator on UI",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Value of the metadata specified by setting Customization.Googl.IndicationEntityAttributeName",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Entity for which a special indicator will be shown on UI in lookup dropdown and search lookup popup when the its metadata specified by setting Customization.Googl.IndicationEntityAttributeName has value equal to the value specified by setting Customization.Googl.IndicationEntityAttributeValue",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of all association which are to be made mandatory runtime based on action user is trying to perform",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting controls whether to show CIR step in the Check & Sign tab of the team tab",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Top party attributes entity name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for add second party attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for add third party attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for other party contact email attribute used in ICMOtherPartyContactMaster",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for other party contact first name attribute used in ICMOtherPartyContactMaster",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for other party contact full name attribute used in ICMOtherPartyContactMaster",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for other party contact last name attribute used in ICMOtherPartyContactMaster",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 1 other party email attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 1 other party first name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 1 other party full name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 1 other party last name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 1 other party user attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 2 other party email attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 2 other party first name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 2 other party full name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 2 other party last name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 2 other party user attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 3 other party email attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 3 other party first name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 3 other party full name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 3 other party last name attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The metadata name for 3 other party user attribute used in ICMgContractsAgreement",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The agreement renewal option for 'Agreement does not renew'",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The agreement renewal option for 'Limited Auto Renewal'",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The agreement renewal option for 'Perpetual Auto Renewal'",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Other party master entity name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string key prefixes and keys for fetching customization resources for client side script.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string containing the name of client specific custom utilities assembly file.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The default precision to be used for decimal data type viz. Total Length specified while adding attribute",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The default scale to be used for decimal data type viz. No of Decimals specified while adding attribute",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Controls the default value of User Preference setting Open in same tab on click of View icon",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Default Organization Path Id",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The default length of the string properties to be used by the entity service, when creating a new entity. All String properties will have the column type set to nvarchar[1000]. NOTE : Setting this to zero makes entity service to create all string properties as nvarchar[max] ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Delay in millisecond after resume workflow",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Department Attribute Name. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean true/false to disable/enable Apis vulnerable to security threats.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Show business status On Create OR Edit wizard. If set to false, the attribute will not be available to end user to set value.  This flag does not indicate wheter to use BusinessStatus or Sattus for Status display on detials it is handled by another flag",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This config defines the access key to be used by document service",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This config value tells the conversion strategy to be used.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This setting defines the name of the topic used for document conversion. For example conversion from DOCX to PDF",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Dependent on FileEncryptionMode. If this setting is true use TripleDES else NoEncryption",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates expiry time for shared access signature in hours",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates  whether to use OCRing service or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Setting that enables document of certain format to be indexed",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the 'Exact Effective Date' value \nNote: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the First Day of the Month following the Latter of Two Signature Dates (by Two Signature Dates we mean 'Google Sign Date' & 'Partner Sign Date') Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the First Day of the Month following the Month in which Google Signs. Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the First Day of the Month in which Google Signs. Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the First Day of the Month in which Partner Signs. Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the Date on which Google Signs.Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "greement 'Effective Date' will be the Latter of the Two Signature Date (by Two Signature Dates we mean 'Google Sign Date' & 'Partner Sign Date'). Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Effective Date' will be the Date on which Partner Signs.  Note: This values of ICMEffectiveDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that lists masterdata entity attributes which are to be stripped from ES query in order to implemente authorization",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag that enables/disables document indexing",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match email value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "All email sent from ICM using Email From Address Settings",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The name of the topic on which the emails to be sent out are sent.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The SMTP Server Password",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email Queue",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Email Server Name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email Server Port",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Email User Name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A boolean flag indicating whether or not to allow auto user provisioning.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to combined metadata and fulltext search is available.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag that enables/disables document indexing",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enable document version labels on Agreement version tab",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Displays IM presence for the users in the team. It uses SIP (Session Initiation Protocol). This should not be used, only for demo purposes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether to enable association and inheritance during agreement creation.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to enable or disable lock/unlock feature",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to allow user categorization while creating users.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to enable or disable the watermark for agreement document.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A boolean flag indicating whether to consider sensitive settings as encrypterd or not.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of entities that can only manage by admin",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of entities that are managed by cache",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether or not to display Details page, until the current modification operation, if any, is completed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Entities to be displayed on the Notification template configuration view.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The A flag indicating whether to dynamically load entity service DLLs in to the app domain. For ICM this value is set to true. Other products such as ITM/IFM set it to false, as they donot have a changing schema",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list attributes which is allowed to display for particular entity if any particular attribute is globally non searchable. This attribute will override the attribute if it is present in globally non searchable attribute list.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list of entity specific attributes. In this list entity will be attached with attributes. These attributes will not be displayed for attached entity. The format will be as below, Entity Name:#separated attribute list",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key referred in Task to send Report Scheduler Error Notification to specific person/team.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Signature block regex used to identify the signature tags",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Tenant information used while sending the envelope",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Name of the association for Executive Summary.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Expiry Date' will be the 'Exact Expiry Date' value. Note: This values of ICMExpiryDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement 'Expiry Date' will be ['Effective Date'] + [number of 'Months from Effective Date' value]. Note: This values of ICMExpiryDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "There Agreement will have no 'Expiry Date' (i.e. Evergreen Contracts). Note: This values of ICMExpiryDateOption choice attribute has to be set/changed/verified at the time of Deployment or whenever the configuration changes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Entity name of the master data which extends the Template information entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Template data type attribute name of the master data entity which extends the template information entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Entity name of the master data which extends the user information entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "User data type attribute name of the master data entity which extends the user information entity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "his is the Application Id (also called Client Id) of registered Azure AD app which has access to Azure Key Vault.\nThe application must present this Id along with the Client Secret to Azure Active Directory, to get a token.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client Secret of Azure AD app",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is the Vault URI of registered Azure AD. this is the base address of Key Vault which is needed in case we want to access the secret using a static key or create a secret dynamically in Azure Key Vault. It is created from dns and keyvault name from the Azure subscription.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A flag telling the Session security token cookie handler to use SSL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Thumbprint of the token signing certificate for ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A Flag indicating whether the files stored by the File Store component are encrypted or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match first name value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that allows IdP to force user for authentication. This setting is based on IdP configuration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Frequently Used Transactions.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This will give the list of globally non searchable attributes. These attributes will not be display for any entity ok search index and list pages",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"auth_uri\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"auth_provider_x509_cert_url\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"client_email\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"client_id\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"client_x509_cert_url\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"private_key\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"private_key_id\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"project_id\" key in ervice account credential file",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is mapped with \"token_uri\" key in ervice account credential file  and its value should be in encrypted format.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicate account type google. Default value of this key is \"service_account\" and it is remains constant for all environment.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key indicate name of bucket.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The names of entities for which events will be generated in the application.  The EventDistributor creates topics for each of these.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Config to block the incompatible browser",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is ICM Preview choice setup. Default will point to ICM View",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Columns to show on agreement team tab from UserInformation, ExtendedUserEntity & Role table",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The time indicating when to show inactivity logout warning popup window.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Use the same agreement object for the different tabs on details. NOTE: For multi-instance environment this does not work.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Enable Multi Tenant Mode ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that allows IdP to take control of service provider's browser",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is to flag if Preview document needs to be generated. Default is true",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting to specify the session token persistence.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The name of the topic on which latest package timestamp is sent.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Path to the terms of use file.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Logging Verbosity for the logs captured",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates if Masterdata is a shared entity or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The maximum allowed length of the JSON string.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates maximum number of times to check whether current modification operation, if any, is completed or not. For infinite trials, set the value less than 0.  NOTE: modification operation = any kind of operation which would modify the instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is metadata name for the user attribute that will be added for google. Once a LTM role is assigned to team, User Identifier will be added to this user attribute",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The ClientDiagnosticLevel level for a cache client is specified in the ServiceConfiguration.cscfg, in the configuration section for the role that is the cache client. This setting is added by the In-Role Cache NuGet package when the role is configured to act as a cache client.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates time between the checks to find out whether current modification operation, if any, is completed or not.  NOTE: modification operation = any kind of operation which would modify the instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting to specify the creation of NameIdentifierPolicy",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting to specify the format for NameIdentifierPolicy SAML",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of custom placeholders to be shown in the attributes list on all the notification templates configuration view.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of custom placeholders to be shown in the attributes list on the agreement related notification template configuration view.  Used only for agreement templates.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of custom placeholders to be shown in the attributes list on the contract request related notification template configuration view. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Represent regex to check numeric value in the text.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The default number of assemblies to retain in the database, the n+1 th DLL will rollover and replace the 1st DLL.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates  whether to use OCRing service or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match user group value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Outlook Add-In vesion of this build. This will be displayed on ICM Version Information popup.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "If content coying needs to be disabled in Agreement PDF preview. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "If printing needs to be disabled in Agreement PDF preview.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Number of pages to include from the full pdf into the preview.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Value that specifies whether a persistent session cookie is to be issued after successful authentication.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Sets the lifetime of a persistant cookie, in minutes.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The key to access the setting that preserves the term \"login\" instead of overriding it with \"logon\"",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "File name of the QlikView dashboard.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "extended property name to store default QlikView dashboard for user",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "extended property name for storing QlikView login id to be used for this user",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL of page hosted by QlikView server to return Web Ticket. While placing the call for web ticket, \"{0}\" should be replaced by value of QlikView.ServerURL.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL of the Helper service deployed on QlikView server.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "enable or disable qlikview reload functionality",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL of the QlikView access Point (default page of QlikView server).",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "duration in seconds after which reload task to be polled for completion",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "timeout period for reload task of qlikview dashboard",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL of the deployed QlikView dashboard to be used to redirect to.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "name of the User group who have access to QlikView dashboard .",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL of the QlikView server where dashboards are deployed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to decide whether QlikView Reports Dashboard should be displayed as default page. If true, then \"Dashboard\" tile will be displayed to view earlier dashboard. If false, then earlier dashboard will be displayed as default page and \"Dashboard\" tile will not be displayed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted value of \"admin\", which represents user id of the administrator user of QlikView server (mandatorily part of QlikView Administrators group on the QlikView server).",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted value of password of the administrator user mentioned in QlikView.TicketingUser key.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Encrypted value of \"icmuser\" which is QlikView user id used for browsing dashboards.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Bottom margin for QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Horizontal Alignment of the QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Left margin for QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Right margin for QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Top margin for QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Vertical Alignment of the QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to decide whether to distribute an event to the service bus or not.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether agreement/contract type data should be read from Elastic search for rendering details page.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Not in use. To be deleted.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to be used by Icertis.CLM.UI.ReportServerCredentials for temporary purpose.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to be used by Icertis.CLM.UI.ReportServerCredentials for temporary purpose.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to disable Session dependency of SSRS Reports. If This flag is removed from Configuration, then SSRS reports will start using session.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Risk Profiler Add-In vesion of this build.This will be displayed on ICM Version Information popup. No need to change Risk Profiler Add-In vesion as it is not yet developed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Roles to be marked defined by rule when added from Event rule",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Roles to be removed which are added from Event rule ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The roles to excluded from filteration.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is required for Azure storage. Will be used  in case of File.Azure.AzureStore",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is required for flat file storage. Will be used  in case of Windows.WindowsStore File Store",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "IdP URL to which SAML logout Request will be sent. This setting is applicable to SAML2 protocol only.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Service Provider certificate store name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Identifier SAML-P based Identity providers generate for ICM as a SP. This value is used in sending a SAML Request instead of WS-Fed request",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string mentioning the search export file type",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to limit facet search results",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "When search popup is launched for attributes as well as inheritance, list of columns and applicable filters can be customized  using this configuration. Refer to Hooks documentation for the details.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to limit lookup search results",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Setting that controls the number of records to be exported from search grids",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "List of the different sections such Table/File which we dont want to highlight.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match security group value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Self Reference Entity",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Self Reference Entity Applicable Roles",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Self reference Entity Pattern.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The fully qualified name of the class which will distribute the events occuring in the application.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The value suffixed to the topic name so as to avoid overlapping while debugging. Set to \"None\" if no suffix is to be added to the topics.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether or not to display Details page, until the current modification operation, if any, is completed.\nNOTE: modification operation = any kind of operation which would modify the instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This flag indicates whether to On/Off document validations for various actions for Agreement, Amendment[Same as agreement] and association.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Show business status to External User. If set to false, the system state will be displayed like Draft, Approved, Executed, etc",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Show business status to Internal User. If set to false, the system state will be displayed like Draft, Approved, Executed, etc",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Boolean value that indicates whether caption needs to be shown above the QR code",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates whether to show complete exception details on the error page",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to show Group name in agreement status(Approval).",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The name of the cert to use for signign",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A Flag indicating whether the requests made to the API should be signed or not.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Config value used for calculation of duedate.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Config value used for calculation of due date.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Sliding expiration window time in minutes for longer sessions",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to slide session token validity.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " While Uploading the file, these special characters should not be allowed as a part of the File Name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Represent regex to check special character in the text.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The flag indicating whether to create SAML2 Logout Request message and send it to IdP to clear IdP SSO session.\nIf set to true, service provider will create SAML Logout request and will send to IdP. IdP will process the resquest\n and will send Logout response back to service provider application. Service provider application will process the response and will clear the user session. If set to false, service provider application will clear the user session and will redirect user to configured logout URL.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Stamp Text. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Agreement status list which is included for agreement auto renewal(Extends the agreement expiry date)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Represent required length of the text.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Mapping string to Inherit Template Metadata to Matter on Template Selection.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates  whether to use threshold text count for ocr",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Top Partner Association Name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Top Partner Review Master Name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Number of retries upon AJAX request failure (abort/cancel) due to n/w conditions for Agreement page tabs",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Wait in milliseconds between retry attempts for Agreement page tabs",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Response status codes which needs to be retried in addition to aborted/cancelled requests. This comes to effect only when `retry` option is configured on $.ajax call.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Date Format, if kept blank will pick up default , else date format specified.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting indicating whether the Questionnaire View Caching is enabled. NOTE: If you keep this setting to true, you will need to restart the Cache and UI roles after changes in Contract Type configuration and Page Navigation Configuration. While heavy configuration is going on keep this setting to false",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Represents a setting which indicates whether to redirect to Agreement details page after update or stay on the same page",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Time in minutes to poll for latest package by comparing last package loaded time with value from Cache for the key \"LatestPackageTimeStampCacheKey\".",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to show/hide Deviation Status on Agreement Clause Comparison Report ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string mentioning the band 1 value",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string mentioning the band 2 value",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string mentioning the band 3 value",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string containing the pipe separated names of assembly files containing Rule Event Hook type definitions.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string containing the name of the image file which is used for the speed test.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Gets or sets a value that indicates whether unobtrusive JavaScript is enabled.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A flag indicating whether to use certificate authentication or not",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to enable use of Dll instead of HttpClient for api calls  NOTE: If the value is changed after deployment we need to restart the Web Role",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to enable or disable use of No Xml",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Fully qualified name of the class implementing the IUserAutoProvision interface",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "User expiry reminder mail interval in days.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match user group value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that allows to sign SAML Authentication Request. This setting is based on IdP configuration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Text for the watermark for agreement document. It is used when EnableWatermark is set to true.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Flag to allow/ disallow files in the Views folder to be directly accessed from a web browser.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Used to distinguish between the 2nd and 3rd version of Razor engine.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "his is the actual wiki server, to which proxy server will rewrite",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Word Add-In vesion of this build.This will be displayed on ICM Version Information popup.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service provider URL to which IdP will send SAML response",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Authentication type to be user. (Forms/ AzureAd/ Saml2/ OAuth2)",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Base URI of the instance",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match external UPN value to augment the user principal object for ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The change password url",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Issuer Name - Used by Form Auth site",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The claim to be used to match last name value to auto provision or update user information in ICM",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Oauth URL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Oauth Client ID",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Oauth Client Secret",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Logout URL for oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Issue of Oauth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that enables oAuth2 protocol support. This setting is based on IdP configuration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Policy ID of oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Logout redirect URL ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The oAuth Provider Name",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Redirect URL for Oauth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Owner Profile URL of Oauth Resource",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Response mode for oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Response type for oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Scope for oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Tenant for oAuth",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "URL for oAuth Tenant Service",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service provider URL to which IdP will send SAML logout response",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "IdP URL to which SAML Authentication Request will be sent.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The setting that enables SAML2 protocol support. This setting is based on IdP configuration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The http binding using which application will send SAML request to IdP",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service Provider certificate store location.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service Provider certificate thumbprint using which SAML Request will be signed.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Service provider URL to which IdP will send SAML logout response",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "he WS federation trusted issuers. These are the name identifiers of the SAML tokens, the iDp will use to sign the token, The signing certificate is sent across in the SAML token. This is part of the token validation process, where the token certificate used and the thumbprint used here match. NOTE : A mismatch in the issuer name leads to the application crash with a WIF 10201 exception",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The client ID of the application added in the azure AD tenant",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Application secret ID of the azure AD tenant",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " The Azure AD auth. URL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Azure AD graph api domain.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Azure AD Graph API version .",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Azure AD graph api endpoint .",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Waad Teannt Id in encrypted format",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Azure AD Tenant name .",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation issuer URL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation configuration realm.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Need more info.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation configuration reply URL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A flag telling the Session security token handler to use SSL",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation metadata XML URL Location",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation namespace to be used to validate SAML token",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WS federation trusted thumbprints. These are the thumbprints of the certificates, the iDp will use to sign the token, The signing certificate is sent across in the SAML token. This is part of the token validation process, where the token certificate used and the thumbprint used here match.  NOTE : A mismatch in the thumbprints leads to the application crash with a WIF 10201 exception",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The WsFederation certificate",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The community build.This will be displayed on ICM Version Information popup.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The application version.This will be displayed on ICM Version Information popup.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Specify custom UI assembly name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Flag to enable / disable customization.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "A string containing the pipe separated names of assembly files containing Rule Event Hook type definitions.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Prefix to be used for Elastic Search Indices when logs from instances of multiple customers are consolidated on single ES Cluster",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The connection string in encrypted format for Azure Account",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Valid thumbprintd used for service API calls. The service API call for authentication, sends across this value",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Content Access Base Url. This is an app which serves the content while any file downloads",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The SQL database connection string for discover AI",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is to sets MessageBus provider by name. As of now we have Azure and Google Message Bus provider",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key will hold the location details from where tenant configuration will be read in ICM. The required format:\n\"<<Source>>|<<Container Name>>|<<Storage Location>>|<<Storage Connection String>>\"  The format should be encrypted and stored as value of this key. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The P2P Database connection string",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The SQL database connection string",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The storage connection string to be used by the diagnostics module.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The service bus connection used by the document service. This value should match the service bus connection in the document service.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Elastic search log server URL ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Elastic search server URL ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Thumbprint of the certificate used to encrypt/decrypt sensitive settings",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The DB connection string for external tasks",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Base Service API URI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Base Service API URI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Base API URI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Base API URI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Thumbprint of the certificate used to encrypt/decrypt files",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Base Service API URI.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Thumbprint of the certificate used for integration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The storage connection string to be used by the diagnostics module.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "ODS Connection String",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Connection string for Redis cache",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to store SSRS Server Domain Name.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to store encrypted SSRS Password. Please check with IT Team for the user credentials.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Key to store encrypted SSRS Username. Please check with IT Team for the user credentials.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted service bus connection string.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains the Folder Name on SSRS Server, where reports are deployed or is to be deployed for current instance.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "SSRS Server folder path where Custom Reports are hosted.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "SSRS Server folder path where Default Reports are hosted.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key is having all unwanted report export formats. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "SSRS Server URL. Please check with IT team for available shared SSRS Server",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "SSRS Server webservice endpoint url. This key is referred on Reports Tile to get list of all uploaded reports on SSRS Server.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Task framework DB connection string in encrypted format",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Tenant DB ConnectionString",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " Valid thumbprints used by service API calls. The service API call for authentication, sends across this value encrypter",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " ICM Help icon on the top left page will always redirect to Wiki.ProxyServerUrl which is /ICMHelp.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The SQL database connection string for Workflows database",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma separated list of domains allowed for cross-origin communication e.g. ICM <-> Salesforce. ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma separated list of RedirectURLs allowed for cross-origin communication e.g. ICM <-> Mac Add-in.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Indicates the relative url of the Salesforce webservice for fetching the object information ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This key contains values like Client ID, Group Id, UserName, Password, ApiUrl, ResourceUrl, AuthorityUrl, ArchivalWorkspaceId etc. which is used to embed Power BI resources in an application.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is the Application Id (also called Client Id) of registered Azure AD app which has access to Azure Key Vault.\nThe application must present this Id along with the Client Secret to Azure Active Directory, to get a token.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " This is the Client Authentication Key or Client Secret of registered Azure AD app which has access to Azure Key Vault  It is generated from the Azure subscription either through the UI or from the Azure power shell",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This is the Vault URI of registered Azure AD. this is the base address of Key Vault which is needed in case we want to access the secret using a static key or create a secret dynamically in Azure Key Vault. It is created from dns and keyvault name from the Azure subscription.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "IS Multi Org Enabled for CRM Integration",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": " This is the Client Authentication information in specific JSON format for multiple Org. All information will be stored in Encrypted format. It will be consumed by CRM Reverse Integration Task to identify the organization for reverse data sync.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client Id of customer EchoSign REST account. This will be used during communication with EchoSign REST api.\nNote: For each communication with EchoSign api we need ClientId and ClientSecret both.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Secret Code of custome EchoSign REST account. This will be used during communication with EchoSign REST api. \nNote: For each communication with EchoSign api we need ClientId and ClientSecret both.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client App Reverse Integration Service URI. If the salesforce package is Managed, then the value will be services/apexrest/IcertisCLM/ICMSF_FetchEntObjData else the value will be services/apexrest/ICMSF_FetchEntObjData",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Apikey used to authenticate electronic signature vendor's Api",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Call back url used by echosign api to after an event has happened on an envelope.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The number of days that remain before the document expire.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Electronic signature implementation for the deployment",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Registered user's password which can be used to send envelopes. Value needs to be encrypted.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Electronic signature Api url",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Registered user which can be used to send envelopes",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Comma separated list of URLs allowed for cross-origin communication e.g. ICM <-> OfficeJS AddIns.",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "If the salesforce package is Managed then the value will be IcertisCLM__ICM_CanvasApp else the value will be ICM_CanvasApp",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client App Key in Encrypted format",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client App Token in Encrypted format",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Client login URL , if the Salesforce instance is  production then this value must be https://login.salesforce.com and if the Salesforce instance is  sandbox then this value must be https://test.salesforce.com ",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The Salesforce password in encrypted format",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "This value will be salesforce instance Login User Id",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": null,
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted SQL connection string to AI database. It may point to same ICM database or to a different database on same server depending on the configuration string. The database will be available depending on whether digger is enabled",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted SQL connection string to AI database. It may point to same ICM database or to a different database on same server depending on the configuration string. The database will be available depending on whether digger is enabled",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "The encrypted SQL connection string to AI database. It may point to same ICM database or to a different database on same server depending on the configuration string. The database will be available depending on whether digger is enabled",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Hostname of ICM instance",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  },
+  {
+    "ConfigKey": null,
+    "Description": "Hostname of ICM instance",
+    "Editable": null,
+    "Visible": null,
+    "SampleData": null
+  }
+]
