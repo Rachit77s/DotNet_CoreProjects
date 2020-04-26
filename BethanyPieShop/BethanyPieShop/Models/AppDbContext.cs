@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace BethanyPieShop.Models
 {
-    public class AppDbContext : DbContext
+    //Changing DbContext to IdentityDbContext<IdentityUser>  for Authentication and Authorization in the last module and run migration
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -16,6 +19,12 @@ namespace BethanyPieShop.Models
         public DbSet<Pie> Pies { get; set; }
 
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderDetail> OrderDetails { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
