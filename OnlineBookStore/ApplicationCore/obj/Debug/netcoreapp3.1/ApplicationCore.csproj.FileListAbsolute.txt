@@ -1,0 +1,11 @@
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.deps.json
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfo.cs
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\bin\Debug\netcoreapp3.1\DomainModel.dll
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\bin\Debug\netcoreapp3.1\DomainModel.pdb
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csproj.CopyComplete

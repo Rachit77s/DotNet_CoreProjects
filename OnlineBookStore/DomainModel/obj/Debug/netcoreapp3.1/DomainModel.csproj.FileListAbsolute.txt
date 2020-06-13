@@ -1,0 +1,8 @@
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\bin\Debug\netcoreapp3.1\DomainModel.deps.json
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\bin\Debug\netcoreapp3.1\DomainModel.dll
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\bin\Debug\netcoreapp3.1\DomainModel.pdb
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\obj\Debug\netcoreapp3.1\DomainModel.csprojAssemblyReference.cache
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\obj\Debug\netcoreapp3.1\DomainModel.AssemblyInfoInputs.cache
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\obj\Debug\netcoreapp3.1\DomainModel.AssemblyInfo.cs
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\obj\Debug\netcoreapp3.1\DomainModel.dll
+C:\Users\Rachit\source\repos\DotNet_CoreProjects\OnlineBookStore\DomainModel\obj\Debug\netcoreapp3.1\DomainModel.pdb
