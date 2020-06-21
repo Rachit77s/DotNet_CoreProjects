@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GdkppzoQg6XctAXmBlJS68xxCSqjBz0oc0jGGsHpw5oBHV+sKgIY+DSjT/yCBV4Xk71xAje3h7TxJUAKcENhAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rachit\\source\\repos\\GithubOauth2\\GithubOauth2\\GithubOauth2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rachit\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Rachit\\.nuget\\packages\\octokit\\0.48.0\\octokit.0.48.0.nupkg.sha512"
+  ],
+  "logs": []
+}
