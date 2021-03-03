@@ -13,17 +13,16 @@ namespace OnPaymentReceived
     {
         [FunctionName("EmailLicenseFile")]
         public static void Run(
-            [BlobTrigger("licenses/{name}", Connection = "AzureWebJobsStorage")]string licenseFileContents,
-            [SendGrid(ApiKey = "SendGridApiKey")] out SendGridMessage message,
-            string name, 
+            [BlobTrigger("licenses/{orderId}.lic", Connection = "AzureWebJobsStorage")]string licenseFileContents,
+            [SendGrid(ApiKey = "SendGridApiKey")] ICollector<SendGridMessage> sender, //Making Email compulsory out SendGridMessage message,
+            [Table("orders", "orders", "{orderId}")] Order order,
+            string orderId, 
             ILogger log)
         {
-            var email = Regex.Match(input: licenseFileContents,
-                        pattern: @"^Email\:\(.+)$", RegexOptions.Multiline).Groups[1].Value;
+            var email = order.Email;
+            log.LogInformation($"Got order from {email}\n Order Id:{orderId}");
 
-            log.LogInformation($"Got order from {email}\n License File name:{name}");
-            
-            message = new SendGridMessage();
+            var message = new SendGridMessage();
             message.From = new EmailAddress(Environment.GetEnvironmentVariable("EmailSender"));
             message.AddTo(email);
 
@@ -32,11 +31,11 @@ namespace OnPaymentReceived
             var base64 = Convert.ToBase64String(plainTextBytes);
 
             //Add attachment containing the license file
-            message.AddAttachment(filename: name, content: base64, type: "text/plain");
+            message.AddAttachment($"{orderId}.lic", base64, "text/plain");
             message.Subject = "Your license file";
             message.HtmlContent = "Thank you for your order";
-            //if (!email.EndsWith("@test.com"))
-            //    sender.Add(message);
+            if (!email.EndsWith("@test.com"))
+                sender.Add(message);
         }
     }
 }
