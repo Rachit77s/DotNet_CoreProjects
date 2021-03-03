@@ -121,40 +121,42 @@ namespace JewelleryChallenge.Controllers
         //("api/user/printfile")
         public Object PrintFile()
         {
+            try
+            {
+                var result = new HttpResponseMessage(HttpStatusCode.OK);
+
+                // 1) Get file bytes
+                var filePath = Path.Combine( Directory.GetCurrentDirectory(), "Resources", "JewelleryChallengeTestingPostman.docx");
+
+                var fileBytes = System.IO.File.ReadAllBytes(filePath);
+
+                // 2) Add bytes to a memory stream
+                var fileMemStream = new MemoryStream(fileBytes);
+
+                // 3) Add memory stream to response
+                result.Content = new StreamContent(fileMemStream);
+
+                // 4) build response headers
+                var headers = result.Content.Headers;
+
+                headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
+                headers.ContentDisposition.FileName = "JewelleryChallengeTestingPostman.docx";
+
+                headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+
+                headers.ContentLength = fileMemStream.Length;
+
+                //Prints the output in JSON Format
+                //return result;
 
 
-            var result = new HttpResponseMessage(HttpStatusCode.OK);
-
-            // 1) Get file bytes
-            var filePath = Path.Combine(
-                             Directory.GetCurrentDirectory(),
-                             "Resources", "JewelleryChallengeTestingPostman.docx");
-
-            var fileBytes = System.IO.File.ReadAllBytes(filePath);
-
-            // 2) Add bytes to a memory stream
-            var fileMemStream = new MemoryStream(fileBytes);
-
-            // 3) Add memory stream to response
-            result.Content = new StreamContent(fileMemStream);
-
-            // 4) build response headers
-            var headers = result.Content.Headers;
-
-            headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
-            headers.ContentDisposition.FileName = "JewelleryChallengeTestingPostman.docx";
-
-            headers.ContentType =  new MediaTypeHeaderValue("application/octet-stream");
-
-            headers.ContentLength = fileMemStream.Length;
-
-            //Prints the output in JSON Format
-            //return result;
-
-
-            //Prints the output in actual file content
-            return File(fileMemStream, "application/pdf", "test.pdf");
-
+                //Prints the output in actual file content
+                return File(fileMemStream, "application/pdf", "test.pdf");
+            }
+            catch (Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Database Failure");
+            }
         }
 
         [HttpGet("printpaper")]
