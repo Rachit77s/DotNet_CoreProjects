@@ -21,5 +21,7 @@ namespace LearningCoreWeb.Models
 
         [Required]
         public DepartmentEnum Department { get; set; }
+
+        public string PhotoPath { get; set; }
     }
 }
