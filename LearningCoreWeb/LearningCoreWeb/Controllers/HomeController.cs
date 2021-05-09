@@ -1,6 +1,7 @@
 ﻿using LearningCoreWeb.Models;
 using LearningCoreWeb.ViewModels;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -41,7 +42,12 @@ namespace LearningCoreWeb.Controllers
         public ViewResult Details(int? id)
         {
             Employee model = _employeeRepository.GetEmployee(id??1);
-            return View(model);
+
+            HomeDetailsViewModel employee = new HomeDetailsViewModel
+            {
+               Employee= model
+            };
+            return View(employee);
         }
 
         [HttpGet]
@@ -62,19 +68,23 @@ namespace LearningCoreWeb.Controllers
 
                 // If the Photo property on the incoming model object is not null, then the user
                 // has selected an image to upload.
-                if (model.Photo != null)
+                if (model.Photos != null && model.Photos.Count > 0)
                 {
-                    // The image must be uploaded to the images folder in wwwroot
-                    // To get the path of the wwwroot folder we are using the inject
-                    // HostingEnvironment service provided by ASP.NET Core
-                    string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
-                    // To make sure the file name is unique we are appending a new
-                    // GUID value and and an underscore to the file name
-                    uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Photo.FileName;
-                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                    // Use CopyTo() method provided by IFormFile interface to
-                    // copy the file to wwwroot/images folder
-                    model.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
+                    // Loop thru each selected file
+                    foreach (IFormFile photo in model.Photos)
+                    {
+                        // The file must be uploaded to the images folder in wwwroot
+                        // To get the path of the wwwroot folder we are using the injected
+                        // IHostingEnvironment service provided by ASP.NET Core
+                        string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
+                        // To make sure the file name is unique we are appending a new
+                        // GUID value and and an underscore to the file name
+                        uniqueFileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
+                        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                        // Use CopyTo() method provided by IFormFile interface to
+                        // copy the file to wwwroot/images folder
+                        photo.CopyTo(new FileStream(filePath, FileMode.Create));
+                    }
                 }
 
                 Employee newEmployee = new Employee
@@ -93,6 +103,23 @@ namespace LearningCoreWeb.Controllers
             }
             return View();
         }
+
+
+        [HttpGet]
+        public ViewResult Edit(int id)
+        {
+            Employee employee = _employeeRepository.GetEmployee(id);
+            EmployeeEditViewModel employeeEditViewModel = new EmployeeEditViewModel
+            {
+                Id = employee.Id,
+                Name = employee.Name,
+                Email = employee.Email,
+                Department = employee.Department,
+                ExistingPhotoPath = employee.PhotoPath
+            };
+            return View(employeeEditViewModel);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
