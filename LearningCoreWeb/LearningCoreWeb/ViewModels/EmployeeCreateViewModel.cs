@@ -19,6 +19,6 @@ namespace LearningCoreWeb.ViewModels
         [Required(ErrorMessage = "Please provide a value for Email field")]
         public string Email { get; set; }
         public DepartmentEnum Department { get; set; }
-        public List<IFormFile> Photos { get; set; }
+        public IFormFile Photo { get; set; }
     }
 }
