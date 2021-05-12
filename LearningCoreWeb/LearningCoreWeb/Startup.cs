@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace LearningCoreWeb
 {
@@ -26,6 +27,11 @@ namespace LearningCoreWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EmployeeDBConnection")));
+
+            //
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                    .AddEntityFrameworkStores<AppDbContext>();
+
             services.AddMvc().AddXmlSerializerFormatters();
             services.AddControllersWithViews();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
