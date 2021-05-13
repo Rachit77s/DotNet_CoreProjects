@@ -5958,11 +5958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\AspDotNetIdentityProject.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\AspDotNetIdentityProject.csproj",
       "projectName": "AspDotNetIdentityProject",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\AspDotNetIdentityProject.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\AspDotNetIdentityProject.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\AspDotNetIdentityProject\\AspDotNetIdentityProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

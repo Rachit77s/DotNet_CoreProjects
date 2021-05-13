@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿
+@inject SignInManager<IdentityUser> SignInManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -10,7 +13,7 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </environment>
-    
+
 
 </head>
 <body>
@@ -37,39 +40,55 @@
 
                     @*Rachit: Register Not Working Here*@
                     @*<ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="account" asp-action="register">Register</a>
-                        </li>
-                    </ul>*@
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="account" asp-action="register">Register</a>
+                            </li>
+                        </ul>*@
                 </div>
 
                 <div class="pull-right">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="account" asp-action="register">Register</a>
-                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <form method="post" asp-controller="account" asp-action="logout">
+                                    <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">
+                                        Logout @User.Identity.Name
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="account" asp-action="register">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="account" asp-action="login">Login</a>
+                            </li>
+                        }
                     </ul>
                     @*<div class="btn-group">
-                        <button class="btn btn-success">
-                            Languages
-                        </button>
-                        <button class="btn btn-success dropdown-toggle"
-                                data-toggle="dropdown">
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu pull-right">
-                            <li>
-                                <a href="#">DS</a>
-                            </li>
-                            <li>
-                                <a href="#">Python</a>
-                            </li>
-                        </ul>
-                    </div>*@
+                            <button class="btn btn-success">
+                                Languages
+                            </button>
+                            <button class="btn btn-success dropdown-toggle"
+                                    data-toggle="dropdown">
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right">
+                                <li>
+                                    <a href="#">DS</a>
+                                </li>
+                                <li>
+                                    <a href="#">Python</a>
+                                </li>
+                            </ul>
+                        </div>*@
                 </div>
             </div>
         </nav>
-        
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
