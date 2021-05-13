@@ -31,8 +31,16 @@ namespace AspDotNetIdentityProject
             //Rachit
             //We want to store and retrieve User and Role information of the registered users using EntityFrameWork Core from the underlying SQL Server database.
             //We specify this using AddEntityFrameworkStores<AppDbContext>() passing our application DbContext class as the generic argument.
-            services.AddIdentity<IdentityUser, IdentityRole>()
-                    .AddEntityFrameworkStores<AppDbContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredUniqueChars = 0;
+                options.Password.RequireLowercase = false;
+                //options.Password.RequiredUniqueChars = 3;
+                options.Password.RequireNonAlphanumeric = false;
+            })
+            .AddEntityFrameworkStores<AppDbContext>();
 
             services.AddControllersWithViews();
         }
