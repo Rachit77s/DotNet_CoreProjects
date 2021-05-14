@@ -42,6 +42,18 @@ namespace AspDotNetIdentityProject
             })
             .AddEntityFrameworkStores<AppDbContext>();
 
+            // Rachit
+            // Global Authentication
+            //services.AddMvc(options => {
+            //    var policy = new AuthorizationPolicyBuilder()
+            //                    .RequireAuthenticatedUser()
+            //                    .Build();
+            //    options.Filters.Add(new AuthorizeFilter(policy));
+            //}).AddXmlSerializerFormatters();
+
+            // Rachit
+            //services.AddMvc().AddXmlSerializerFormatters();
+
             services.AddControllersWithViews();
         }
 
