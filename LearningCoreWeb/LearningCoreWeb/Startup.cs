@@ -44,12 +44,17 @@ namespace LearningCoreWeb
 
             // Rachit
             // Global Authentication
-            services.AddMvc(options => {
+            services.AddMvc(options =>
+            {
                 var policy = new AuthorizationPolicyBuilder()
                                 .RequireAuthenticatedUser()
                                 .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
             }).AddXmlSerializerFormatters();
+
+            // Rachit
+            // Global Authentication
+            //services.AddMvc().AddXmlSerializerFormatters();
 
             services.AddControllersWithViews();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
@@ -75,6 +80,8 @@ namespace LearningCoreWeb
 
             app.UseRouting();
 
+            //Rachit
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
