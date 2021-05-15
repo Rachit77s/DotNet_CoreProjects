@@ -64,6 +64,14 @@ namespace LearningCoreWeb.Controllers
                 // SignInManager and redirect to index action of HomeController
                 if (result.Succeeded)
                 {
+                    // If the user is signed in and in the Admin role, then it is
+                    // the Admin user that is creating a new user. So redirect the
+                    // Admin user to ListRoles action
+                    if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("ListUsers", "Administration");
+                    }
+
                     //isPersistent ==> This denotes if we want to create Session cookie or a permanent cookie, the permanent cookie is retained on the client's machine even if the browser is closed.
                     await signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("index", "home");
