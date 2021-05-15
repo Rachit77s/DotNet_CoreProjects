@@ -46,6 +46,11 @@ namespace LearningCoreWeb.Models
             //        Email = "john@pragimtech.com"
             //    }
             //);
+
+            foreach (var foreignKey in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
 
     }
