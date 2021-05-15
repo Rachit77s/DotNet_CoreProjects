@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Http;
 
 namespace LearningCoreWeb
 {
@@ -51,6 +52,17 @@ namespace LearningCoreWeb
                                 .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
             }).AddXmlSerializerFormatters();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
+            });
 
             // Rachit
             // Global Authentication
