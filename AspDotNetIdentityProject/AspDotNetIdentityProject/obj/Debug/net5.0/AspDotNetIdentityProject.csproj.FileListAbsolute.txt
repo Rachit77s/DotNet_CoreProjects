@@ -155,3 +155,5 @@ C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDot
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDotNetIdentityProject\obj\Debug\net5.0\ref\AspDotNetIdentityProject.dll
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDotNetIdentityProject\obj\Debug\net5.0\AspDotNetIdentityProject.pdb
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDotNetIdentityProject\obj\Debug\net5.0\AspDotNetIdentityProject.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDotNetIdentityProject\obj\Debug\net5.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\AspDotNetIdentityProject\AspDotNetIdentityProject\obj\Debug\net5.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
