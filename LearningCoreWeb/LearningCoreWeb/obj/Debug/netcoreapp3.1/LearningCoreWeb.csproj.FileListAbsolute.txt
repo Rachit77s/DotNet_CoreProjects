@@ -171,3 +171,4 @@ C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\LearningCoreWeb\LearningCoreWeb
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\LearningCoreWeb\LearningCoreWeb\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUser.cshtml.g.cs
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\LearningCoreWeb\LearningCoreWeb\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
 C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\LearningCoreWeb\LearningCoreWeb\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\LearningCoreWeb\LearningCoreWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs

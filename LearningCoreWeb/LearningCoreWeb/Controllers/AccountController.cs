@@ -28,6 +28,31 @@ namespace LearningCoreWeb.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                return RedirectToAction("index", "home");
+            }
+
+            var user = await userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"The User ID {userId} is invalid";
+                return View("NotFound");
+            }
+
+            var result = await userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                return View();
+            }
+
+            ViewBag.ErrorTitle = "Email cannot be confirmed";
+            return View("Error");
+        }
+
         [AcceptVerbs("Get", "Post")]
         [AllowAnonymous]
         public async Task<IActionResult> IsEmailInUse(string email)
