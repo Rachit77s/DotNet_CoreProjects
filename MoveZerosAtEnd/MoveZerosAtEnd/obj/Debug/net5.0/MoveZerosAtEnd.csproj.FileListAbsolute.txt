@@ -1,0 +1,16 @@
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.exe
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.deps.json
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.runtimeconfig.dev.json
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.dll
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\ref\MoveZerosAtEnd.dll
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\bin\Debug\net5.0\MoveZerosAtEnd.pdb
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.csprojAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.dll
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\ref\MoveZerosAtEnd.dll
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.pdb
+C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\MoveZerosAtEnd\MoveZerosAtEnd\obj\Debug\net5.0\MoveZerosAtEnd.genruntimeconfig.cache
