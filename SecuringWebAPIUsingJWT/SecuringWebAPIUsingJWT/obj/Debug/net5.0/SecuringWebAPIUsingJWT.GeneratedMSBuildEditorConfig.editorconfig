@@ -6,4 +6,4 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SecuringWebAPIUsingJWT
-build_property.ProjectDir = C:\Users\HP\source\repos\SecuringWebAPIUsingJWT\SecuringWebAPIUsingJWT\
+build_property.ProjectDir = C:\Users\HP\Documents\GitHub\DotNet_CoreProjects\SecuringWebAPIUsingJWT\SecuringWebAPIUsingJWT\

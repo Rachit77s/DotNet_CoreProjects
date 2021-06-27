@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bRfHsS3MpuRMcIlLxNn/fT9HvdhJpUdBo6TL0HQZQJAMb1nXc0n1ybi60c4rAQk5MallOkE1jfDte2wM40VSFQ==",
+  "dgSpecHash": "PsxZEdxGern/mamxbKAnW2qy3E+3xo6sha5H8ugvhg4ORMUovAiDj2aaasDsZZu8kFnVIlU1QdGkgZv0p2wUjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

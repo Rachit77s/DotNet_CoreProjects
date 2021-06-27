@@ -5463,11 +5463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
       "projectName": "SecuringWebAPIUsingJWT",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\DotNet_CoreProjects\\SecuringWebAPIUsingJWT\\SecuringWebAPIUsingJWT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
