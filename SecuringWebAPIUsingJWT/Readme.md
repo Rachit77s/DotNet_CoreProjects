@@ -15,8 +15,11 @@ I have done Web API Authentication and Authorization in this project.
 
 #### Example:
 
-
-## Project Screen Shot(s)
+Test user credentials:
+{
+  "username": "coding",
+  "password": "SecYourPa$$Word#21"
+}
 
 #### Example:   
 
