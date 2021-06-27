@@ -62,16 +62,32 @@ namespace JWTWebApiProject.Services
 
         private string generateJwtToken(User user)
         {
-            // generate token that is valid for 7 days
+            // generate token that is valid for 2 hours
+            // First, we need to the create security token handler, which will create the token.
             var tokenHandler = new JwtSecurityTokenHandler();
+
+            // Once SecurityTokenHandler is created, we want to make sure that the token key is private key or encrypted.
+            // Pass the byte array and get the byte array of the token key.
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+
+            // SecurityTokenDescriptor tells us what kind of claims the user has, what kind of key we are using, what kind of algo we are using.
             var tokenDescriptor = new SecurityTokenDescriptor
             {
+                // This signifies that ClaimType is based on name and name is nothing but the Username passed
+                //Subject = new ClaimsIdentity(new[] 
+                //{ 
+                //    new Claim("id", user.Id.ToString()) 
+                //}),
+
+                //ClaimType is based on id and id is nothing but the user.Id passed
                 Subject = new ClaimsIdentity(new[] { new Claim("id", user.Id.ToString()) }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
+
+            // Get the token
             var token = tokenHandler.CreateToken(tokenDescriptor);
+            // Return the JWT Token to the User
             return tokenHandler.WriteToken(token);
         }
     }
